@@ -1,0 +1,16 @@
+/* src/components/Dashboard/Footer.css */
+
+.footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: auto; /* Mueve el footer al fondo */ 
+    position: relative;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}

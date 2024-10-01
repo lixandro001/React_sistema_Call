@@ -1,0 +1,56 @@
+/* src/components/Auth/Login.css */
+
+.login-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333; /* Color del título */
+}
+
+form {
+    background-color: #fff; /* Fondo del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+    padding: 20px;
+    width: 300px; /* Ancho del formulario */
+}
+
+form div {
+    margin-bottom: 15px; /* Espaciado entre los campos */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo */
+    font-weight: bold; /* Etiquetas en negrita */
+}
+
+input {
+    width: 90%; /* Campos ocupan todo el ancho */
+    padding: 10px;
+    border: 1px solid #ccc; /* Bordes de los campos */
+    border-radius: 4px; /* Bordes redondeados de los campos */
+    font-size: 16px; /* Tamaño de fuente en los campos */
+}
+
+button { 
+    padding: 10px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave al cambiar color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+}

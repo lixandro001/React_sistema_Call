@@ -1,0 +1,26 @@
+/* src/components/Dashboard/Main.css */
+
+.main {
+    padding: 20px;
+    margin-left: 250px; /* Alinea el contenido con la sidebar */
+    flex-grow: 1;
+    background-color: #f8f9fa; /* Fondo claro para el área principal */
+    min-height: calc(100vh - 70px); /* Asegura que ocupe toda la pantalla, restando el header */
+}
+
+.main h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.main .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main p {
+    font-size: 16px;
+    line-height: 1.5;
+}

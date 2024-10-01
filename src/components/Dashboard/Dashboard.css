@@ -1,0 +1,26 @@
+/* src/components/Dashboard/Dashboard.css */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .d-flex {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #f8f9fa; 
+    transition: margin-left 0.3s ease; /* Suaviza el desplazamiento */
+  }
+ 
+  
+  .content.collapsed {
+    margin-left: 60px; /* Cuando el sidebar está colapsado */
+  }
+  
